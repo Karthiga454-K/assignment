@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+rel="stylesheet">
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">HOME</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">SERVICES</a></li>
+        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">CONTACT</a></li>
+      </ul>
+  <div class="dropdown">
+    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+      BUDGET CATEGORY</button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item " href="#">BELOW 100</a></li>
+      <li><a class="dropdown-item " href="#">100 - 1000</a></li>
+      <li><a class="dropdown-item " href="#">ABOVE 1000</a></li>
+    </ul>
+  </div><br><br>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div class="container pt-5">
+<h1> FANCY SHOP </h1>
+<p class="text-primary" class="h1"> Buy Your Lovable Fancy Items Here!!!</p>
+</div>
+
+ 
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+   <div class="carousel-item active">
+      <img src="fancy.jpg" alt="fancy things " class="d-block" style="width:100"></div>
+   <div class="carousel-item">
+      <img src="fan.jpg" alt="earings" class="d-block" style="width:100"></div>
+   <div class="carousel-item">
+      <img src="jwelll3.jpg" alt="bangle" class="d-block" style="width:100"></div>
+  
+</div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+<div class="container mt-3">
+  <h3>FOR MORE SHOPS</h3>
+                    
+  <ul class="pagination">
+    <li class="page-item active"><a class="page-link" href="#">PREVIOUS</a></li>
+    <li class="page-item"><a class="page-link" href=https://www.google.com/search?q=fancy+shops&tbm=isch&ved=2ahUKEwjFk7PspbyDAxVzT2wGHRk6BOYQ2-cCegQIABAA&oq=fancy+shops&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB46DQgAEIAEEIoFEEMQsQM6CAgAEIAEELEDOgoIABCABBCKBRBDOg4IABCABBCKBRCx">1</a></li>
+    <li class="page-item"><a class="page-link" href="https://www.google.com/search?q=shops+for+beauty+cosmetics&tbm=isch&ved=2ahUKEwih4pvyp7yDAxXdSmwGHW2MC4EQ2-cCegQIABAA&oq=shops+for+beauty+cosmetics&gs_lcp=CgNpbWcQA1DdCFjQJWDXKGgBcAB4AIABqgGIAdcJkgEDMC45mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=RMCSZaGwJd2VseMP7ZiuiAg&bih=728&biw=768">2</a></li>
+    <li class="page-item"><a class="page-link" href="">3</a></li>
+    <li class="page-item disabled"><a class="page-link" href="#">NEXT</a></li>
+  </ul>
+</div>
+</body>
+</html>
